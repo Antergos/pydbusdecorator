@@ -9,24 +9,24 @@ sys.path = [my_dir + "/../"] + sys.path
 #Import decorators
 #-----------------
 
-from dbusdecorator import DbusAttr, DbusInterface, DbusMethod, get_uri
+from dbusdecorator import DBusAttribute, DBusInterface, DBusMethod, get_uri
 
 #Define dbus interface
 #----------------------
 
-@DbusInterface('org.mpris.MediaPlayer2.Player', '/org/mpris/MediaPlayer2')
+@DBusInterface('org.mpris.MediaPlayer2.Player', '/org/mpris/MediaPlayer2')
 class Player(object):
     '''
     Your interface info
     '''
     
-    @DbusMethod
+    @DBusMethod
     def Next(self):
         '''
         Your method
         '''
 
-    @DbusAttr
+    @DBusAttribute
     def Volume(self): 
         '''
         Your attribute
