@@ -12,10 +12,10 @@ with open('README.rst') as readme_file:
 
 setup(name='pydbusdecorator',
       version='2.0',
-      description='Python decorator for dbus interface client definition',
-      author='hugosenari',
-      author_email='hugosenari@gmail.com',
-      url='https://github.com/hugosenari/pydbusdecorator',
+      description='Python decorator for dbus interface clients',
+      author='Antergos Developers',
+      author_email='dev@antergos.com',
+      url='https://github.com/antergos/pydbusdecorator',
       keywords = ["dbus"],
       packages=('dbusdecorator',),
       requires=(),
@@ -26,7 +26,7 @@ setup(name='pydbusdecorator',
             "Topic :: Software Development :: Libraries :: Python Modules",
             "License :: OSI Approved :: GNU General Public License (GPL)",
             "Programming Language :: Python :: 2.7",
-            "Programming Language :: Python :: 3.4"
+            "Programming Language :: Python :: 3.5"
       ],
       long_description = readme
 )
